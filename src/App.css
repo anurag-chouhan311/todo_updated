@@ -1,0 +1,73 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #0f0e0e;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+.todo-wrapper {
+  width: 960px;
+  height: 100px;
+  background-color: #2d2b2b;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.todo-wrapper .todo-input input {
+  margin-top: 4px;
+  border: none;
+  padding: 5px;
+}
+.todo-wrapper .todo-input input:focus {
+  outline: 2px solid rgb(105, 214, 214);
+}
+.todo-wrapper .todo-input button {
+  margin-top: 17px;
+  padding: 6px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 50, 50);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.todo-display {
+  width: 800px;
+  height: auto;
+  margin: auto;
+  background-color: #ccc;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(18, 15, 15);
+  margin-top: 30px;
+  align-items: center;
+}
+.todo-display button {
+  padding: 8px 14px;
+  width: 50px;
+  height: 30px;
+  background-color: rgb(221, 50, 50);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.todo-display-update{
+  width: 900px;
+  height: 70px;
+  background-color: red;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.todo-display-update input{
+  padding:4px 8px;
+  margin-right: 6px;
+}
